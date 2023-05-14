@@ -9,8 +9,7 @@
 </head>
 
 <body class="antialiased">
-    <h1>Success</h1>
-    {{-- <p>{{ $customer->name }}</p> --}}
+    <h1>Your payment has been made successfully</h1>
 </body>
 
 </html>
