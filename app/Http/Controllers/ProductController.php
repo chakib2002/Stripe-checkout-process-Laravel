@@ -53,4 +53,13 @@ class ProductController extends Controller
         return redirect($session->url);
     }
 
+    public function success()
+    {
+        return view('product.checkout-success');
+    }
+    public function cancel()
+    {
+        // return view('product.checkout-cancel');
+    }
+
 }
